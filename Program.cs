@@ -1,6 +1,16 @@
 ﻿using Mission4;
 
+<<<<<<< HEAD
 using System;
+=======
+/*
+ * Array of arrays (3x3)
+ * Asterisks until Xs and Os
+ * 
+ */
+
+using Mission4;
+>>>>>>> 66d04c36d449938888f76067ee168c3e9cdb8616
 
 class Program
 {
@@ -8,6 +18,7 @@ class Program
     {
         Console.WriteLine("Welcome to Tic-Tac-Toe!");
 
+<<<<<<< HEAD
         char[] board = { '1', '2', '3', '4', '5', '6', '7', '8', '9' }; // Game board
         char currentPlayer = 'X';
         bool gameWon = false;
@@ -59,3 +70,6 @@ class Program
         Console.WriteLine("It's a draw!");
     }
 }
+=======
+Console.WriteLine($"{board.PrintBoard()}");
+>>>>>>> 66d04c36d449938888f76067ee168c3e9cdb8616
