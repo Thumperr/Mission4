@@ -9,9 +9,17 @@ namespace Mission4;
 
 public class Board
 {
-    public Array[] PrintBoard( /*Information*/)
+    public Array[] PrintBoard(Array[] board)
     {
-        Array[] board = new Array[3];
-        Console.WriteLine(board);
+        
+    }
+
+    public string CheckWinner(Array[] board)
+    {
+        string message = "";
+        
+        
+
+        return message;
     }
 }

@@ -7,8 +7,14 @@
 when a win has occurred and which player won the game
 */
 
+/*
+ * Array of arrays (3x3)
+ * Asterisks until Xs and Os
+ * 
+ */
+
 using Mission4;
 
 Board board = new Board();
 
-Console.WriteLine($"{board.doSomething()}");
+Console.WriteLine($"{board.PrintBoard()}");
