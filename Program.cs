@@ -1,24 +1,15 @@
-﻿using Mission4;
+﻿namespace Mission4;
 
-using System;
-/*
- * Array of arrays (3x3)
- * Asterisks until Xs and Os
- * 
- */
-
-using Mission4;
-
-class Program
+internal class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine("Welcome to Tic-Tac-Toe!");
 
-        char[] board = { '1', '2', '3', '4', '5', '6', '7', '8', '9' }; // Game board
+        char[] board = { '*', '*', '*', '*', '*', '*', '*', '*', '*' }; // Game board
         char currentPlayer = 'X';
         bool gameWon = false;
-        char winner = 'N';
+        char winner;
         int moves = 0;
 
         while (!gameWon && moves < 9)
