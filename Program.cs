@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Welcome to Tic-Tac-Toe!");
 
-        char[] board = { '*', '*', '*', '*', '*', '*', '*', '*', '*' }; // Game board
+        char[] board = { '1', '2', '3', '4', '5', '6', '7', '8', '9' }; // Game board
         char currentPlayer = 'X';
         bool gameWon = false;
         char winner;
