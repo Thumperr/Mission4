@@ -9,10 +9,17 @@ namespace Mission4;
 
 public class Board
 {
-    public Array[] PrintBoard(Array[] board)
+    public void PrintBoard(Array[] board)
     {
-        
+        console.Writeline("| " + board[1] + " | " board[2] " | " board[3] + " |");
+        console.Writeline("|---------------|");
+        console.Writeline("| " + board[4] + " | " board[5] " | " board[5] + " |");
+        console.Writeline("|---------------|");
+        console.Writeline("| " + board[7] + " | " board[8] " | " board[9] + " |");
+        console.Writeline("|---------------|");
     }
+    
+    PrintBoard(["x","x","x","x","x","x","x","x","x",]);
 
     public string CheckWinner(Array[] board)
     {
@@ -23,3 +30,4 @@ public class Board
         return message;
     }
 }
+
