@@ -13,15 +13,13 @@ public class Board
 {
     public void PrintBoard(Array[] board)
     {
-        console.Writeline("| " + board[1] + " | " board[2] " | " board[3] + " |");
-        console.Writeline("|---------------|");
-        console.Writeline("| " + board[4] + " | " board[5] " | " board[5] + " |");
-        console.Writeline("|---------------|");
-        console.Writeline("| " + board[7] + " | " board[8] " | " board[9] + " |");
-        console.Writeline("|---------------|");
+        Console.WriteLine("| " + board[1] + " | " + board[2] + " | " + board[3] + " |");
+        Console.WriteLine("|---------------|");
+        Console.WriteLine("| " + board[4] + " | " + board[5] + " | " + board[5] + " |");
+        Console.WriteLine("|---------------|");
+        Console.WriteLine("| " + board[7] + " | " + board[8] + " | " + board[9] + " |");
+        Console.WriteLine("|---------------|");
     }
-    
-    PrintBoard(["x","x","x","x","x","x","x","x","x",]);
 
     public (bool, char) CheckWinner(Array[] board)
     {
