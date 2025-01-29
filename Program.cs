@@ -66,4 +66,3 @@ class Program
         Console.WriteLine("It's a draw!");
     }
 }
-Console.WriteLine($"{board.PrintBoard()}");
